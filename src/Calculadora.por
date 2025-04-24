@@ -51,6 +51,6 @@ programa {
     senao se(operacao == 4){
       escreva("Resposta: ", divisao(num1, num2))
     }
-    senao {escreva("Operação inválida, escolha somente um número de 1 a 4.")}
+    senao {escreva("Operação inválida")}
   }
 }
