@@ -1,9 +1,6 @@
 name: Trabalho Veco
 
-on:
-  push:
-    branches:
-      - main
+on: pull_request
 
 jobs:
   display_messages:
