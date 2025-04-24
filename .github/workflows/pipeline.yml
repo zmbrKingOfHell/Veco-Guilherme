@@ -1,0 +1,28 @@
+name: Trabalho Veco
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  display_messages:
+    runs-on: windows-latest
+
+    steps:
+      - name: checar o codigo
+        uses: actions/checkout@v3
+      
+      - name: Exibir mensagem 1
+        run: echo "Automação inicada"
+
+      - name: Exibir mensagem 2
+        run: echo "Automação em andamento"
+
+      - name: Exibir mensagem 3
+        run: echo "Aguarde"
+
+      - name: Exibir mensagem 4
+        run: echo "Automação finalizada"
+
+        #Antônio, Cláudia e Guilherme A.K.A. REI DO INFERNO
